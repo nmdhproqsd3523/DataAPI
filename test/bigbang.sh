@@ -1,0 +1,25 @@
+
+#!/bin/bash
+
+# 花费的公私钥
+# pri: 43230906bd5ced1091dc27af3cf38e724d55e5a3541a1c1528fe8bb6402b3a3d
+# pub: 12e5c444afd8d4eb26734398a0e355c10b01a8bcb93278fea3f4fd089b430bbd
+# addr: 1qm5m76r8zqta7zkr6awvsa011f0nbrx0k11q69qbtkcayh64wm9d01zj
+
+# 签名的公私钥
+# pri: d8af8367dedc30ddcb4f7560a66fa4ac510b5143efa5224fcb8c7888e54b2f84
+# pub: ad3404ab01fc757bd3aa4897c75037eb29aff4ae768437e473dea02bdb999b9e
+# addr: 1ktdskpsbm3f77s1qghvaxx5f57nkem67jx4anmvveqy03ar46jpgpq2j
+
+#  模板地址
+# temp addr: 20g04h1p4cwmercyyy5nxab2k51pywkcyqjnggd66cyvwefcm1p79twq6
+
+#  配置文件项
+#cryptonightaddress=1qm5m76r8zqta7zkr6awvsa011f0nbrx0k11q69qbtkcayh64wm9d01zj
+#cryptonightkey=d8af8367dedc30ddcb4f7560a66fa4ac510b5143efa5224fcb8c7888e54b2f84
+
+bigbang importprivkey 43230906bd5ced1091dc27af3cf38e724d55e5a3541a1c1528fe8bb6402b3a3d 123456
+
+bigbang unlockkey 12e5c444afd8d4eb26734398a0e355c10b01a8bcb93278fea3f4fd089b430bbd 123456
+
+bigbang addnewtemplate mint '{"mint": "ad3404ab01fc757bd3aa4897c75037eb29aff4ae768437e473dea02bdb999b9e", "spent": "1qm5m76r8zqta7zkr6awvsa011f0nbrx0k11q69qbtkcayh64wm9d01zj"}'

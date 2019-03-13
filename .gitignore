@@ -1,0 +1,22 @@
+# Build directories
+packages/*
+DataAPI/bin/*
+DataAPI/obj/*
+sync-data/bigbang
+DposTask/DposTask/obj/Debug/DposTask.pdb
+DposTask/DposTask/obj/Debug/DposTask.exe
+DposTask/DposTask/bin/Debug/DposTask.pdb
+DposTask/DposTask/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+DposTask/DposTask/obj/Debug/DposTask.csproj.CopyComplete
+DposTask/DposTask/obj/Debug/DposTask.csprojAssemblyReference.cache
+DposTask/DposTask/obj/Debug/DposTask.csproj.FileListAbsolute.txt
+DposTask/DposTask/obj/Debug/DposTask.csproj.CoreCompileInputs.cache
+DposTask/DposTask/obj/Debug/TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs
+DposTask/DposTask/obj/Debug/TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs
+DposTask/DposTask/obj/Debug/TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs
+DposTask/DposTask/bin/Debug/DposTask.exe
+DposTask/DposTask/bin/Debug/DposTask.exe.config
+DposTask/.vs/DposTask/v15/Server/sqlite3/storage.ide-wal
+DposTask/.vs/DposTask/v15/Server/sqlite3/storage.ide-shm
+DposTask/.vs/DposTask/v15/Server/sqlite3/storage.ide
+DposTask/.vs/DposTask/v15/Server/sqlite3/db.lock
